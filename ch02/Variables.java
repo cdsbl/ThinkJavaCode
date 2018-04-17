@@ -7,6 +7,8 @@ public class Variables
     public static void main(String[] args)
     {
 //Christy
+
+
         String message;
         int x;
 
