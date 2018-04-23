@@ -33,6 +33,6 @@ System.out.println("The sum is: " + sum);
     //This is the method for 4-C
     public static void printBoolean (boolean isStudent)
     {
-        System.out.println("I am a student:");
+        System.out.println("I am a student: " + isStudent);
     }
 }
