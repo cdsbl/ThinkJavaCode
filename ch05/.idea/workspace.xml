@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6387f76-f6d0-4443-91d3-e8177031e724" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch02/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch03/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch04/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch04/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch04/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch04/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch04/ch04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Precedence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch06/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch06/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch06/Divisible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch06/ch06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07/CountByTens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07/DoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07/While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ch07/ch07.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch02/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch02/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch03/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch03/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch04/SimpleMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ch04/SimpleMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch07/CountByEight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -242,7 +214,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1298" height="994" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
