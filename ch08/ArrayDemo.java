@@ -2,9 +2,10 @@ public class ArrayDemo
 {
     public static void main(String[] args)
     {
-        int[] values = {1, 5, 9}; // These are the values for 8-A in main
+        int[] values = {1,5,9}; // These are the values for 8-A in main
         printArray(values);
         System.out.println();
+
 
         int[] sumNumbers = {5, 7, 13}; //These are the values for 8-B in main
         int sum = arrayTotal(sumNumbers);
@@ -21,15 +22,31 @@ public class ArrayDemo
         printArray(indexNumbers);
         System.out.println("The highest index is " + index);
 
-        double[] avgValue = {34.2, 18.0, 12.5, 13.1}; //These are the values for 8-E in main
+        double[] avgValue = {10.0, 15.0, 20.0}; //These are the values for 8-E in main
         double average = arrayAverage(avgValue);
         System.out.println("The average is " + average);
 
+        int [] values2 = new int[10]; // 8-F adding int using new keyword
+        values2[0]=4;
+        values2[3]=2;
+        values2[9]=4;
+        printArray(values2);
+
+        String [] values3 = new String[10]; //8-G adding string using new keyword
+        values3[0]="Hi";
+        values3[3]="Hello";
+        values3[9]="Bye";
+        printArray(values3);
     }
 
     private static void printArray(int[] values)//This is the method for 8-A
     {
         for (int value : values)
+            System.out.println(value);
+    }
+    private static void printArray(String[] values)//This is the method for 8-A
+    {
+        for (String value : values)
             System.out.println(value);
     }
 
@@ -81,10 +98,11 @@ public class ArrayDemo
         {
             sum = (sum + value);
         }
-        double average = sum/4;
+        double average = sum/values.length;
         return average;
-
     }
+
+
 }
 
 
