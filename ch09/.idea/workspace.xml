@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d10f87-8a42-4560-acc8-5935ebb5cc21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../ch08/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ch07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch07/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -192,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524689300177</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="StringUtil 9">
+      <created>1524692322089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524692322089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
