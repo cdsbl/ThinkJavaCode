@@ -31,13 +31,16 @@ public class StringUtil
         String allButFirstThreeCharactersOfGoodbye = getAllButFirstThreeCharacters("Goodbye");
         System.out.println("allButFirstThreeCharacters for Goodbye returns " + allButFirstThreeCharactersOfGoodbye);
 
+        //HOW DO I GET/PRINT THE INDEX??? 9-B-6
         String printCharacters = getprintCharacters("Hello");
 
     }
+
+
     private static String getLastCharacter(String value)
     {
-       int startIndex = value.length()-1;
-       return value.substring(startIndex, startIndex + 1);
+        int startIndex = value.length() - 1;
+        return value.substring(startIndex, startIndex + 1);
 
     }
 
@@ -48,13 +51,12 @@ public class StringUtil
 
     private static String getFirstTwoCharacters(String value)
     {
-        return value.substring(0,2);
+        return value.substring(0, 2);
     }
-
 
     private static String getLastTwoCharacters(String value)
     {
-        int startIndex = value.length()-2;
+        int startIndex = value.length() - 2;
         return value.substring(startIndex, startIndex + 2);
     }
 
@@ -66,15 +68,31 @@ public class StringUtil
     private static String getprintCharacters(String value)
     {
         for
-                (int i = 0; i<value.length(); i++)
+                (int i = 0; i < value.length(); i++)
         {
             char letter = value.charAt(i);
-            //int = value.substring(i);
+            //int = value.substring(i);////HOW DO I PRINT THE INDEX???
             System.out.println(letter + ":");
         }
-return value;
+        return value;
+    }
+
+    private static void printPhoneNumber(String area, String exchange, String line)
+    {
+        String phoneNumber = area.substring(0,3) + exchange.substring(3,6) + line.substring (6,9);
+        System.out.print("Phone Number is" + area);
     }
 
 
+    //private static String findFirstE ("Hello")
+    //{
+    // return int index = value.indexOf('e');
+    //}
 
+    //private static String isFinn (String value)
+
+    //if name1=="Finn"
+    //{
+    //return = true;
+    //}}
 }
