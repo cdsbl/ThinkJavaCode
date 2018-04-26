@@ -69,10 +69,12 @@ public class StringUtil
                 (int i = 0; i<value.length(); i++)
         {
             char letter = value.charAt(i);
-            int index = value.indexOf("l");
-            System.out.println(letter + ":" + index);
+            //int = value.substring(i);
+            System.out.println(letter + ":");
         }
 return value;
     }
+
+
 
 }
