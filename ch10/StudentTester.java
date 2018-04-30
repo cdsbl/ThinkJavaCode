@@ -32,7 +32,6 @@ public class StudentTester
         backRowStudents[2] = luke;
         printStudents(backRowStudents);
     }
-
     private static void printStudents(Student[] students)
     {
         for (Student student :students)

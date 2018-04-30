@@ -34,6 +34,9 @@ public class StringUtil
         //HOW DO I GET/PRINT THE INDEX??? 9-B-6
         String printCharacters = getprintCharacters("Hello");
 
+        printPhoneNumber("501-555-0100");
+
+
     }
 
 
@@ -77,16 +80,20 @@ public class StringUtil
         return value;
     }
 
-    private static void printPhoneNumber(String area, String exchange, String line)
+    private static void printPhoneNumber(String phoneNumber)
     {
-        String phoneNumber = area.substring(0,3) + exchange.substring(3,6) + line.substring (6,9);
-        System.out.print("Phone Number is" + area);
+        String areaCode = phoneNumber.substring(0,3);
+        String exchange = phoneNumber.substring(4,7);
+        String lineNumber = phoneNumber.substring(8,12);
+        System.out.println("Area Code: " + areaCode + " Exchange: " + exchange + " Line Number: " + lineNumber);
     }
+}
 
 
-    //private static String findFirstE ("Hello")
+
+    //private static void String (findFirstE)
     //{
-    // return int index = value.indexOf('e');
+        //return int index = value.indexOf('e');
     //}
 
     //private static String isFinn (String value)
@@ -95,4 +102,3 @@ public class StringUtil
     //{
     //return = true;
     //}}
-}
